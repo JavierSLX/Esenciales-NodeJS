@@ -23,6 +23,8 @@ function initExpress() {
     console.log('Iniciando Express');
     app.listen(3000, ()=>{
         console.log("Express ha iniciado correctamente!");
+
+        //Eventos de cierre
         process.on("SIGINT", closeApp);
         process.on("SIGTERM", closeApp);
     });
