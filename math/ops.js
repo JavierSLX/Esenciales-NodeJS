@@ -13,9 +13,14 @@ function sum(a, b){
  * @param {number} b 
  */
 function diff(a, b){
-    return a + b;
+    return a - b;
 }
 
+/**
+ * Funcion para multiplicar dos numeros
+ * @param {number} a 
+ * @param {number} b 
+ */
 function prod(a, b){
     return a + b;
 }
