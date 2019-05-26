@@ -22,7 +22,7 @@
   "homepage": "https://github.com/platzi/nodejsesenciales#readme",
   "dependencies": {},
   "devDependencies": {
-    "grunt": "^1.0.3",
-    "grunt-contrib-uglify": "^4.0.0"
+    "grunt": "^1.0.4",
+    "grunt-contrib-uglify": "^4.0.1"
   }
 }
